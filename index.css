@@ -1,0 +1,44 @@
+#container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#title {
+  float: left;
+  text-align: center;
+  width: 80%;
+  margin-left: 2%;
+}
+
+#board td {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border: 2px solid brown;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mole_img {
+  display: none;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#timer {
+  float: right;
+  text-align: center;
+  width: 18%;
+}
+
+#board_container {
+  position: relative;
+  top: 20px;
+  left: 300px;
+  text-align: center;
+  width: 805px;
+  height: 605px;
+}
