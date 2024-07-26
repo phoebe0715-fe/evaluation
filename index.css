@@ -5,6 +5,7 @@
   font-family: "Times New Roman", Times, serif;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 #title {
@@ -31,9 +32,9 @@
 }
 
 #timer {
-  float: right;
-  text-align: center;
-  width: 18%;
+  position: absolute;
+  top: 15px;
+  right: 20px;
 }
 
 #board_container {
